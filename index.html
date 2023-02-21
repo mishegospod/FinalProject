@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <title>Final project</title>
+</head>
+<body>
+    <script>
+        let a = prompt("Enter a place to keep a dog: apartment, house, yard", "apartment")
+
+        if(a == "apartment") alert("We recommend: small and medium breed dogs")
+        if(a == "house") alert("We recommend: medium and large dog breeds")
+        if(a == "yard") alert("We recommend: large dog breeds")
+        
+        if(a !="apartment" && a !="house" && a !="yard" ) alert("No other location information available")
+    </script>
+</body>
+<body>
+    <header>
+        <section class="navigation">
+            <p>Dog
+                <span>
+                    <i class="fa-solid fa-paw"></i>
+                </span>
+                city
+            </p>
+            <nav>
+                <ul>
+                    <li><a href="#"></a>ABOUT US</li>
+                    <li><a href="#"></a>LOCATION</li>
+                    <li><a href="#"></a>OUR TEAM</li>
+                    <li><a href="#"></a>CONTACT US</li>
+
+                    <li>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="site-header">
+            <h1>perfect dog for you</h1>
+            <button>Why do you need this?</button>
+
+        </section>
+    </header>
+    <main>
+        <div class="div1">
+            <h2>Welcome to DogCity</h2>
+            <p>In this website you will find out which one is the 
+                perfect dog for you and why. You will see that this information
+                is relly important for you and your future dog to have best life together.
+            </p>
+            <p>
+                If you have any questions that are not answered in the site, be free to <span>contact us.</span>
+            </p>
+
+        </div>
+
+        <div class="div2">
+            <i id="icon" class="fa-solid fa-shield-dog fa-4x"></i> <h2>Why you should be careful when choosing a dog?</h2> 
+            
+            <br>
+            <br>
+            <div class="polar" id="polar1">
+                <img src="dogcare.jpg">
+                <div class="cont">
+                    <p>We assume you’ve already thought about this, but it never hurts to mention it again: anyone getting a dog should be aware that man's best friend takes up a lot of time and needs attention, education, guidance and love. 
+                        The dog will become part of your everyday life - for more than a decade.
+                         You will be completely responsible for a living being that depends on you in many ways.
+                         After all, the little rascal can't exactly prepare his own food or just hop on the toilet for a moment.</p>
+                </div>
+            </div>
+
+            <div class="polar" id="polar2">
+                    <img src="dogbrush.jpg">
+                    <div class="cont" >
+                        <p>As romantic as the idea of a dog is, it’s also clear that a dog costs money. 
+                            In addition to regular costs for food and care, there are also vet’s bills - not only in case of illness, but also, for example, 
+                            for recurring vaccinations to protect against infectious diseases or regular deworming. Further costs arise from the dog tax (see point 7) and liability insurance (see point 8). 
+                            You should definitely expect to pay between €100 and €200 per month.</p>
+                    </div>
+
+            </div>
+        </div>
+    </main>
+    <br>
+    <footer>
+        <h2>By clicking on one of the dog size choices bellow, you'll get more information about which breed is best for you and where you live.</h2>
+        <br>
+        <div class="button">
+            <form action="index2.html"><button id="small"></button></form>
+            <h3>Small dog breeds</h3>
+        </div>
+        
+
+        <div class="button"> 
+            <form action="index3.html"><button id="medium1"></button></form>
+            <h3>Medium dog breeds</h3>
+        </div>
+
+        <div class="button">
+            
+            <form action="index4.html"><button id="large"></button></form>
+            <h3>Large dog breeds</h3>
+
+        </div>
+
+        <section class="final">
+        <i id="f-icon"class="fa-regular fa-copyright fa-2x"></i> <p>CopyRight 2023. All Rights Reserved</p>
+
+         <address>
+            Street Victor Grigorovich
+            <br>
+            Kriva Reka
+            <br>
+            Tel: +088 745 962 649
+
+        </address>
+        
+        </section>
+    </footer>
+    
+</body>
+</html>

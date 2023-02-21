@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Slab&display=swap');
+
+body{
+    background-image: url(green.webp);
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+
+}
+#div1{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#div1 h1{
+  text-shadow: #0de70d 1px 1px ;
+  
+}
+#div1 span{
+  font-style: italic;
+}
+#div2{
+  border-style: double;
+  border-width: 3px;
+  border-color: white;
+  margin-bottom: 3%;
+  padding-top: 3%;
+  margin-left: 6%;
+  margin-right: 8%;
+  
+}
+
+.div3{
+    display: inline-block;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+#b1{
+    background-image: url(golden.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b1 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #A4D3DD;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #636A06;
+  }
+  
+#b1:hover {background-color: #A4D3DD}
+  
+#b1:active {
+    background-color: #6b7023;
+    box-shadow: 0 5px #747a22;
+    transform: translateY(4px);
+  }
+
+  #b2{
+    background-image: url(great-dane.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b2 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #215a21;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #357927;
+  }
+  
+#b2:hover {background-color: #24691b}
+  
+#b2:active {
+    background-color: #509750;
+    box-shadow: 0 5px #78ad5d;
+    transform: translateY(4px);
+  }
+
+  #b3{
+    background-image: url(german-shepherd.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b3 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #5c9747;
+  }
+  
+#b3:hover {background-color: #bfdbbc}
+  
+#b3:active {
+    background-color: #6eac58;
+    box-shadow: 0 5px #6eac58;
+    transform: translateY(4px);
+  }
+
+  #b4{
+    background-image: url(boxer.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b4 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #70752d;
+  }
+  
+#b4:hover {background-color: #bfdbbc}
+  
+#b4:active {
+    background-color: #91964B;
+    box-shadow: 0 5px #91964B;
+    transform: translateY(4px);
+  }
+
+  #b5{
+    background-image: url(irish.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b5 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #635c62;
+  }
+  
+#b5:hover {background-color: #bfdbbc}
+  
+#b5:active {
+    background-color: #7D747C;
+    box-shadow: 0 5px #7D747C;
+    transform: translateY(4px);
+  }
+
+  #b6{
+    background-image: url(saint.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b6 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #337024;
+  }
+  
+#b6:hover {background-color: #bfdbbc}
+  
+#b6:active {
+    background-color: #2a8646;
+    box-shadow: 0 5px #1f7041;
+    transform: translateY(4px);
+  }
+
+  #b7{
+    background-image: url(cane-corso.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b7 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #586626;
+  }
+  
+#b7:hover {background-color: #bfdbbc}
+  
+#b7:active {
+    background-color: #7fa159;
+    box-shadow: 0 5px #79a745;
+    transform: translateY(4px);
+  }
+
+  #b8{
+    background-image: url(bernese.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b8 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #705839;
+  }
+  
+#b8:hover {background-color: #bfdbbc}
+  
+#b8:active {
+    background-color: #987951;
+    box-shadow: 0 5px #987951;
+    transform: translateY(4px);
+  }
+
+  #b9{
+    background-image: url(anatolian.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b9 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #515f2f;
+  }
+  
+#b9:hover {background-color: #bfdbbc}
+  
+#b9:active {
+    background-color: #798b57;
+    box-shadow: 0 5px #6b753d;
+    transform: translateY(4px);
+  }
+
+  #b10{
+    background-image: url(great-pyrenees-detail.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b10 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #4a640d;
+  }
+  
+#b10:hover {background-color: #bfdbbc}
+  
+#b10:active {
+    background-color: #6e8a2c;
+    box-shadow: 0 5px #6a8a22;
+    transform: translateY(4px);
+  }
+
+  #b11{
+    background-image: url(neapolitan.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b11 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #978038;
+  }
+  
+#b11:hover {background-color: #bfdbbc}
+  
+#b11:active {
+    background-color: #D9B955;
+    box-shadow: 0 5px #D9B955;
+    transform: translateY(4px);
+  }
+
+  #b12{
+    background-image: url(newfoundland.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b12 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #6d7918;
+  }
+  
+#b12:hover {background-color: #bfdbbc}
+  
+#b12:active {
+    background-color: #99A923;
+    box-shadow: 0 5px #99A923;
+    transform: translateY(4px);
+  }

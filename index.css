@@ -1,0 +1,237 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@0;1&display=swap');
+
+body{
+    font-family:'PT Serif', serif ;
+    font-size: 16px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.navigation{
+    padding: 0 20px;
+}
+.navigation p{
+    display: inline-block;
+    font-size: 22px;
+    width: 730px;
+}
+nav{
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 7px;
+    cursor: pointer;
+}
+nav ul li a{
+    color: black;
+    margin-right: 8px;
+}
+.site-header{
+    background: linear-gradient(rgba(0, 0, 0,0.3),rgba(0,0,0,0.6)), url(puppy.jpg),none;
+    background-size: cover;
+}
+.site-header button{
+    background: transparent;
+    color: white;
+    font-size: 26px;
+    border: 2px solid white;
+    padding: 10px 15px;
+    margin: 0 0 200px 100px;
+}
+.site-header h1{
+    color: white;
+    font-size: 66px;
+    font-weight: 38%;
+    margin: 0;
+    padding: 90px 0 80px 100px;
+}
+.site-header button:hover{
+    background-color: #263D07;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.div1{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family:  'PT Serif', serif;;
+}
+.div1 h2{
+    font-style: italic;
+}
+.div1 p span{
+    color: #6eb80e;
+}
+.div1 p span:hover{
+    color: #35550b;
+    cursor: pointer;
+}
+.div2{
+    background-color: #35550b;
+    display: flex;
+}
+
+.div2 h2{
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin-left: 29%;
+    border-style: double;
+    padding: 10px 10px 10px 10px;
+    
+    
+}
+.polar{
+    width: 550px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+    margin-bottom: 25px;
+    padding-top: 5px;
+    margin-top: 10%;
+    margin-right: 6.5%;
+    margin-left: -4%;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.cont{
+    text-align: center;
+    padding: 10px 20px;
+}
+.polar img{
+    width: 550px;
+    height: 400px;
+    
+}
+.polar #polar1{
+    margin-right: 10%;
+}
+.polar #polar2{
+    margin-left: 30%;
+}
+#small{
+    background-image: url(small.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#small {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #BEE13F;
+  }
+  
+#small:hover {background-color: #3e8e41}
+  
+#small:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #539443;
+    transform: translateY(4px);
+  }
+
+
+
+#medium1{
+    background-image: url(medium1.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+#medium1 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #998270;
+  }
+  
+#medium1:hover {background-color: #3e8e41}
+  
+#medium1:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #947843;
+    transform: translateY(4px);
+  }
+
+
+#large{
+    background-image: url(large.jpg);
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+}
+#large {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #798C39;
+  }
+  
+#large:hover {background-color: #3e8e41}
+  
+#large:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #345213;
+    transform: translateY(4px);
+  }
+.button{
+    display: inline-block;
+    margin-left: 10%;
+}
+footer h2{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 18px;
+}
+.button h3{
+    text-align: center;
+}
+#icon {
+    margin-left: 5%;
+    margin-top: 2%;
+    color: white;
+
+}
+.final{
+    background-color: #35550b;
+}
+.final address{
+    margin-left: 83%;
+    margin-top: -13%;
+    text-align: right;
+    display: flex;
+}
+.final p{
+    margin-left: 12%;
+    margin-bottom: 10%;
+    margin-top: -2%;
+    
+}
+#f-icon{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+

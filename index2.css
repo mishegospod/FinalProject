@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Slab&display=swap');
+
+body{
+    background-image: url(green.webp);
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+
+}
+#div1{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+#div1 h1{
+  text-shadow: #0de70d 1px 1px ;
+  
+}
+#div1 span{
+  font-style: italic;
+}
+#div2{
+  border-style: double;
+  border-width: 3px;
+  border-color: white;
+  margin-bottom: 3%;
+  padding-top: 3%;
+  margin-left: 6%;
+  margin-right: 8%;
+  
+}
+
+.div3{
+    display: inline-block;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+#b1{
+    background-image: url(maltese.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b1 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #A4D3DD;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #85aeb8;
+  }
+  
+#b1:hover {background-color: #A4D3DD}
+  
+#b1:active {
+    background-color: #A4D3DD;
+    box-shadow: 0 5px #87c2cf;
+    transform: translateY(4px);
+  }
+
+  #b2{
+    background-image: url(boston.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b2 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #215a21;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #3c8133;
+  }
+  
+#b2:hover {background-color: #33752a}
+  
+#b2:active {
+    background-color: #256128;
+    box-shadow: 0 5px #3f8b35;
+    transform: translateY(4px);
+  }
+
+  #b3{
+    background-image: url(dachshund.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b3 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #cadacb;
+  }
+  
+#b3:hover {background-color: #bfdbbc}
+  
+#b3:active {
+    background-color: #b7ceb8;
+    box-shadow: 0 5px #b1beb0;
+    transform: translateY(4px);
+  }
+
+  #b4{
+    background-image: url(shihTzu.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b4 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #8f7a35;
+  }
+  
+#b4:hover {background-color: #bfdbbc}
+  
+#b4:active {
+    background-color: #dab98d;
+    box-shadow: 0 5px #b68a58;
+    transform: translateY(4px);
+  }
+
+  #b5{
+    background-image: url(pug.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b5 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #96aeb1;
+  }
+  
+#b5:hover {background-color: #bfdbbc}
+  
+#b5:active {
+    background-color: #bbd6d2;
+    box-shadow: 0 5px #bad3d1;
+    transform: translateY(4px);
+  }
+
+  #b6{
+    background-image: url(pomeranian.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b6 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #5B7F14;
+  }
+  
+#b6:hover {background-color: #bfdbbc}
+  
+#b6:active {
+    background-color: #67a026;
+    box-shadow: 0 5px #4b8021;
+    transform: translateY(4px);
+  }
+
+  #b7{
+    background-image: url(chihuahua.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b7 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #df162a;
+  }
+  
+#b7:hover {background-color: #bfdbbc}
+  
+#b7:active {
+    background-color: #d1404e;
+    box-shadow: 0 5px #bd3946;
+    transform: translateY(4px);
+  }
+
+  #b8{
+    background-image: url(yorki.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b8 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #47917c;
+  }
+  
+#b8:hover {background-color: #bfdbbc}
+  
+#b8:active {
+    background-color: #7ab6a5;
+    box-shadow: 0 5px #7ab6a5;
+    transform: translateY(4px);
+  }
+
+  #b9{
+    background-image: url(poodle.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b9 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #8a8a80;
+  }
+  
+#b9:hover {background-color: #bfdbbc}
+  
+#b9:active {
+    background-color: #ACAC9E;
+    box-shadow: 0 5px #ACAC9E;
+    transform: translateY(4px);
+  }
+
+  #b10{
+    background-image: url(bichonfrize.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b10 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #ac8d27;
+  }
+  
+#b10:hover {background-color: #bfdbbc}
+  
+#b10:active {
+    background-color: #a3a341;
+    box-shadow: 0 5px #afaf34;
+    transform: translateY(4px);
+  }
+
+  #b11{
+    background-image: url(spaniel.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b11 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #a07e35;
+  }
+  
+#b11:hover {background-color: #bfdbbc}
+  
+#b11:active {
+    background-color: #a08d3b;
+    box-shadow: 0 5px #a5813e;
+    transform: translateY(4px);
+  }
+
+  #b12{
+    background-image: url(jack.jpg); 
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,0.2), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+}
+#b12 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #bfcfbf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #866a04;
+  }
+  
+#b12:hover {background-color: #bfdbbc}
+  
+#b12:active {
+    background-color: #b69931;
+    box-shadow: 0 5px #be9f2e;
+    transform: translateY(4px);
+  }
+
